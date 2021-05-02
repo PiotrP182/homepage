@@ -1,0 +1,31 @@
+.table__tableCell {
+    border: 1px solid rgb(180, 16, 16);
+    padding: 14px;
+    text-align: center;
+}
+
+.tableContainer {
+    overflow-x: auto;
+}
+
+.table {
+    border-collapse: collapse;
+    margin: auto;
+    margin-top: 60px;
+    margin-bottom: 60px;
+    font-family: 'Fira Sans', sans-serif;
+    width: 70%;
+}
+
+.table__tableHeader {
+    background-color: rgb(97, 169, 236);
+    color: cornsilk;
+}
+
+.captionCell {
+    border: 1px solid rgb(180, 16, 16);
+    padding: 10px;
+    font-size: x-large;
+    font-family: 'Fira Sans', sans-serif;
+    border-bottom: none;
+}

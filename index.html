@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+<html lang="pl">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Piotr</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css"
+        integrity="sha512-NhSC1YmyruXifcj/KFRWoC561YpHpc5Jtzgvbuzx5VozKpWvQ+4nXhPdFgmx8xqexRcpAglTj9sIBWINXa8x5w=="
+        crossorigin="anonymous" />
+    <link href="CSS/style.css" rel=stylesheet>
+    <link href="CSS/navigation.css" rel=stylesheet>
+    <link href="CSS/article.css" rel=stylesheet>
+    <link href="CSS/table.css" rel=stylesheet>
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Fira+Sans:ital,wght@1,300;1,600&display=swap" rel="stylesheet">
+    <script defer src="js/script.js"></script>
+</head>
+
+<body class="element">
+
+    <nav class="navigation">
+        <ul class="navigation__list">
+            <li>
+                <a class="navigation__link" href="#O-mnie">O mnie</a>
+            </li>
+            <li>
+                <a class="navigation__link" href="#youcode">Jak znalazłem sie na kursie</a>
+            </li>
+            <li>
+                <a class="navigation__link" href="#hobby">Zainteresowania</a>
+            </li>
+            <li>
+                <a class="navigation__link" href="#table">Tabela kursów walut</a>
+            </li>
+        </ul>
+    </nav>
+    <header>
+        <h1 class="header">Piotr Przybyl</h1>
+        <img class="image" src="image/Piotr.jpg" alt="Piotr Przybyl"> <br>
+        <button class="headerButton">Zmiana koloru nagłówka</button>
+    </header>
+
+
+    <main>
+        <article class="article">
+            <section id="O-mnie">
+                <h2 class="article__subHeader" id="o-mnie">O mnie</h2>
+                <p class="article__paragraph">W 2014 roku ukończyłem studia magisterskie na kierunku Finanse i
+                    Rachunkwość ze
+                    specjalizacją
+                    inwestycje.
+                    Następnie rozpocząłem pracę zawodową powiązaną z kierunkiem studiów pracując u brokera
+                    Foreksowego w
+                    Warszawie,
+                    w
+                    banku inwestycyjnym we Frankfurcie nad Menem a obecnie po decyzji powrotu do ojczyzny pracuję w
+                    banku w
+                    Łodzi w
+                    dziale rynków finansowych. </p>
+            </section>
+
+            <section id="youcode">
+                <h2 class="article__subHeader">Jak znalazłem się na kursie youcode</h2>
+                <p class="article__paragraph">W ostatnim czasie kilka czynników wzbudziło moje zainteresowanie tematem
+                    programowania. Pierwszym z
+                    nich
+                    był
+                    kontakt ze znajomym, który po kilku latach pracy w bankach inwestycyjnych postanowił się
+                    przebranżowić i
+                    rozpocząć karierę w branży IT. Bardzo sobie chwalił taką zmianę więc pomyślałem czemu ja nie
+                    miałbym
+                    podjąć
+                    takiego kroku :). Drugim czynnikiem jest zaangażowanie w pracy w proces automatyzacji procesów,
+                    co
+                    mnie
+                    zainteresowało i chyba ma coś wspólnego na wyższym poziomie z programowaniem. Trzeci czynnik to
+                    <em>praca
+                        zdalna</em>,
+                    której doświadczam od ponad roku i <strong class="article__special">bardzo</strong> przypadła mi do
+                    gustu
+                </p>
+            </section>
+
+            <section id="hobby">
+                <h3 class="article__subHeader">Zainteresowania</h3>
+                <p class="article__paragraph">Moje zainteresowania to <b>fotografia</b> (<em>w dużej mierze <a class="linkWord"
+                            rel="noreferer noopener" target="_blank" href="https://pl.wikipedia.org/wiki/Planespotting"
+                            title="Fotografia lotnicza">lotnicza</a></em>
+                    ), <b>inwestycje</b> oraz
+                    <b>gra na
+                        gitarze</b>
+                </p>
+            </section>
+        </article>
+
+
+    </main>
+    <div class="Container">
+        <table id="table" class="table">
+            <caption class="captionCell">Średnie miesięczne kursy walut</caption>
+            <tr class="table__tableRow">
+                <th class="table__tableCell table__tableHeader" scope="col">Para walutowa</th>
+                <th class="table__tableCell table__tableHeader" scope="col">Styczen</th>
+                <th class="table__tableCell table__tableHeader" scope="col">Luty</th>
+                <th class="table__tableCell table__tableHeader" scope="col">Marzec</th>
+            </tr>
+            <tr class="table__tableRow">
+                <th class="table__tableCell table__tableHeader" scope="row">EUR/PLN</th>
+
+                <td class="table__tableCell">4.3</td>
+                <td class="table__tableCell">4.4</td>
+                <td class="table__tableCell">4.5</td>
+
+            </tr>
+            <tr class="table__tableRow">
+                <th class="table__tableCell table__tableHeader" scope="row">USD/PLN</th>
+
+                <td class="table__tableCell">3.5</td>
+                <td class="table__tableCell">3.6</td>
+                <td class="table__tableCell">3.7</td>
+
+            </tr>
+            <tr class="table__tableRow">
+                <th class="table__tableCell table__tableHeader" scope="row">CHF/PLN</th>
+                <td class="table__tableCell">4.05</td>
+                <td class="table__tableCell" colspan=2>4.2</td>
+            </tr>
+        </table>
+        <button class="tableButton"><span class="themeName">Ukryj</span> kursy</button>
+    </div>
+
+    <div class=footer>
+        <footer>Copyright 2020</footer>
+    </div>
+
+
+</body>
+
+</html>

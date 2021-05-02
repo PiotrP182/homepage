@@ -1,0 +1,17 @@
+.article {
+    width: auto;
+    background-color: rgba(237, 237, 238, 0.932);
+    min-height: fit-content;
+    font-family: 'Fira Sans', sans-serif;
+}
+
+.article__paragraph {
+    line-height: 2;
+    padding: 8px;
+}
+
+.article__subHeader {
+    background-color: rgba(107, 166, 201, 0.726);
+    padding: 3px;
+    padding-left: 8px;
+}

@@ -1,0 +1,79 @@
+html {
+    box-sizing: border-box;
+}
+
+*, ::after, ::before {
+    box-sizing: inherit;
+}
+
+.element {
+    max-width: 1200px;
+    padding: 0 20px;
+    margin: 0 auto;
+}
+
+.header {
+    color: rgb(84, 57, 236);
+    font-size: 75px;
+    text-shadow: 1px 1px grey;
+    text-align: center;
+}
+
+.headerSpecial {
+    color: rgb(247, 171, 8);
+    background-color: rgb(190, 217, 243);
+}
+
+.headerButton {
+    margin: 0 auto;
+    display: block;
+    height: 40px;
+    width: 150px;
+    background-color: rgb(113, 158, 241);
+    color: rgb(253, 245, 232);
+}
+
+.image {
+    border-radius: 50%;
+    height: 200px;
+    box-shadow: 10px -5px 5px 1px rgba(188, 184, 185, 0.36);
+    margin: 0 auto;
+    display: block;
+}
+
+.link {
+    text-decoration: none;
+    color: rgb(68, 124, 230);
+    font-size: 23px;
+}
+
+.tableButton {
+    margin: 0 auto;
+    display: block;
+    background-color: rgb(111, 152, 230);
+    height: 50px;
+    width: 120px;
+    font-size: 18px;
+    color: cornsilk;
+}
+
+.hideRate {
+    background-color: black;
+}
+
+.footer {
+    padding: 20px;
+    background-color: rgb(122, 122, 122);
+    margin-top: 35px;
+    text-align: center;
+    color: rgb(243, 180, 21);
+}
+.linkWord{
+    text-decoration: none;
+}
+.linkWord:hover{
+    color: rgb(107, 107, 243);
+}
+.linkWord:active{
+    color:  rgb(156, 156, 216);
+}
