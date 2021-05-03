@@ -58,7 +58,7 @@ html {
 }
 
 .hideRate {
-    background-color: black;
+    display: none;
 }
 
 .footer {
