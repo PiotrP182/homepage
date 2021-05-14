@@ -9,12 +9,12 @@
     };
 
 {
-    const headerSpecial = () => {
+    const changeHeader = () => {
         const button = document.querySelector(".headerButton")
         const header = document.querySelector(".header")
         button.addEventListener("click", () => { header.classList.toggle("headerSpecial") });
     }
-    headerSpecial();
+    changeHeader();
 }
     
     
